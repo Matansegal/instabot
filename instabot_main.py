@@ -107,6 +107,13 @@ class InstagramBot:
         #skip the first 9 pics of the most popular
         counter = 9
         
+        driver.get('https://www.instagram.com/matansegall/')
+        try:
+            driver.find_element_by_xpath(
+                '/html/body/div[1]/section/main/div/header/section/div[1]/div[1]/div/span/span[1]/button').click()
+        except Exception:
+            print('finish loading, start running')
+        
         while(counter < num_pics + 9):
             
             #flush update

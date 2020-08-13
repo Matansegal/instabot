@@ -6,7 +6,6 @@ Created on Sun Aug  2 16:30:46 2020
 @author: matan
 """
 import instabot_main as instabot
-import users
 import sleep
 
 
