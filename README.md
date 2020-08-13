@@ -153,7 +153,9 @@ This file contain the sleep command. I have just one function there ```sleep.sle
 
 ## **Example**
 
-First we need to log in to our accoutn. We are using the default browser - Firefox.
+Examples which all are shown in the ```example.py``` file.
+
+First we need to log in to our account. We are using the default browser - Firefox.
 ```elm
 bot = InstagramBot('<username>','<password>')
 bot.login()
