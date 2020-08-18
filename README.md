@@ -55,7 +55,7 @@ bot.run(hashtag,
         num_pics = 20,
         follow_enable=False,
         like_enable = True,
-        comment_enable=False
+        comment_enable=False,
         break_after = 60,
         break_len = 45, 
         max_follow = 30
@@ -185,7 +185,7 @@ for tag in hashtags:
 ```
 
 
-- The second exmaple is running the program on a given location. The location you can fine by uri as mention [here](#run).
+- The second exmaple is running the program on a given location. The location you can find by the URL as mention [here](#run).
 Be aware of setting the tag to a location id as a string and the location enable to **True**.
 
 ```elm
