@@ -64,6 +64,7 @@ bot.run(hashtag,
  > - <ins>**hashtag:**</ins> string. Feffers to the hasgtag you want to load the pictures from e.g. 'dogs'.
  > - <ins>**location:**</ins> default to False. if set to True, it search by location and not hashtag, and the hashtag now should be the **location id** e.g. '6889842'. The location id you can find in the url of the location:
  > <img src="https://d33v4339jhl8k0.cloudfront.net/docs/assets/575d3a4cc6979111618ef748/images/5978abee042863033a1b65c4/file-KSrDNXuzvK.png">
+ 
  > - <ins>**num_pics:**</ins> int, default to 20. Refferas to the number of pictures you want to like (or comment and follow as well). **If set to more than 60, after 60 photoes, it will sleep for 50 minutes. You can change it, 
  <span style=“color:red;”> but it is not recommended!! </span>** 
  > - <ins>**follow_enable:**</ins> default to False. If set to True, it will also follow all the users you liek their pictures. **Do not follow too many people**. Also, it will creat a ```.csv file``` with all the usernames you followed.
